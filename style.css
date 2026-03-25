@@ -1,9 +1,7 @@
 /* global web styles */
-/*body {
+body {
     cursor: url(https://i.postimg.cc/KYkq6khz/cursor.png), auto;
 }
-    (Andrew) I don't think having a linux peguin as a cursor is such a good idea as it makes the website feel clunky to navigate
-*/ 
 
 html {
     scroll-behavior: smooth;
@@ -134,4 +132,50 @@ th,td {
 .smallerTitle{
     text-align: center;
     padding-top: 50px;
+}
+
+.clubPhoto{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* for Events page carousel */
+.horizontal-scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    border: none; 
+    outline: none; 
+    padding: 10px 0; 
+
+}
+.horizontal-scroll-container .horzScrollItem{
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;      
+    background-color: #f9f9f9; 
+    text-align: center;
+    min-width: 150px; 
+    width: 500px;    
+    height: 400px;              
+    vertical-align: top;
+    box-sizing: border-box; 
+    overflow: hidden; 
+    text-align: center;
+}
+
+.event-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;                      
+    font-size: 13px;
+    color: #000;
+    margin: 30px auto;
+    padding: 5px;
+    text-align: center;
 }
